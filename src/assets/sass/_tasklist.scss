@@ -1,0 +1,14 @@
+.tasklist-container {
+    flex: 1 1 auto;
+    min-height: 10px;
+    height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    transition:  background-color 0.2s ease;
+    background-color: white;
+    padding: 0px 8px;
+
+    &.selected {
+        background-color: skyblue;
+    }
+}

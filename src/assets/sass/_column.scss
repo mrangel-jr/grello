@@ -1,0 +1,17 @@
+.column-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
+    margin: 8px;
+    height: fit-content;
+    border: 1px $light-gray solid;
+    border-radius: 2px;
+    min-width: 200px;
+    max-width: 300px;
+
+    .column-title {
+        padding: 8px;
+        text-align: center;
+    }
+}
+

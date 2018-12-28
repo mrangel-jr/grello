@@ -1,0 +1,12 @@
+.task-container {
+    display: flex;
+    border: 1px $light-gray solid;
+    border-radius: 2px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: white;
+
+    &.moving {
+        background-color: lightgreen;
+    }
+}
